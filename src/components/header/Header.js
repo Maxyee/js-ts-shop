@@ -68,7 +68,7 @@ export default class Header extends Component {
                   jumpTo('/dashboard')
                 }}
               >
-                Cjs supa fresh
+                CJ'S Supa Fresh
               </div>
             </div>
             <div className={styles.mid}>

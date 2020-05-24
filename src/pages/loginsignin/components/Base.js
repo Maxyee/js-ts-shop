@@ -17,7 +17,7 @@ export default function Base({
 }) {
   return (
     <div className={styles.outbox}>
-      <div className={styles.logo}>Cjs supa fresh</div>
+      <div className={styles.logo}>CJ'S Supa Fresh</div>
       <div className={styles.title_style}>{title}</div>
       <div className={styles.border_style}></div>
       {

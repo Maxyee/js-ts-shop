@@ -103,7 +103,7 @@ export default class Filter extends Component {
                     <p>BAGS</p>
                       
                   </div>
-                  {this.FILTER_CONFIG['order'].map(n =>
+                  {/* {this.FILTER_CONFIG['order'].map(n =>
                     <Checkbox
                       key={n}
                       onChange={this.handleChange}
@@ -111,11 +111,11 @@ export default class Filter extends Component {
                       category='order'
                       isChecked={this.state['order'] && this.state['order'].includes(n.toUpperCase()) || false}
                     />
-                  )}
+                  )} */}
                 </div>
 
                 {/* order */}
-                <div className={styles.block}>
+                {/* <div className={styles.block}>
                   <div className={styles.sub_title}>
                     ORDER
                   </div>
@@ -128,9 +128,9 @@ export default class Filter extends Component {
                       isChecked={this.state['order'] && this.state['order'].includes(n.toUpperCase()) || false}
                     />
                   )}
-                </div>
+                </div> */}
                 {/* department */}
-                <div className={styles.block}>
+                {/* <div className={styles.block}>
                   <div className={styles.sub_title}>
                     DEPARTMENT
                   </div>
@@ -143,7 +143,7 @@ export default class Filter extends Component {
                       isChecked={this.state['department'] && this.state['department'].includes(n.toUpperCase()) || false}
                     />
                   )}
-                </div>
+                </div> */}
                 {/* price */}
                 <div className={styles.block}>
                   <div className={styles.sub_title}>

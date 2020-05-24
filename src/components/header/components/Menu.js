@@ -12,7 +12,7 @@ export default function Menu({
       {/* lists */}
       <div className={`${styles.lists}`}>
         {/* departments */}
-        {departments && departments.map(d =>
+        {/* {departments && departments.map(d =>
           <div className={styles.tag}
             key={d.departmentName}
           >
@@ -22,7 +22,7 @@ export default function Menu({
               categories={d.categories.split(',')}
             />
           </div>
-        )}
+        )} */}
       </div>
       {/* all product */}
       <div className={styles.tag}
