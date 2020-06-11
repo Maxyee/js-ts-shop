@@ -4,6 +4,7 @@ import LoginSignin from './pages/loginsignin/LoginSignin'
 import ShoppingBag from './pages/shoppingBag/ShoppingBag'
 import ProductOverview from './pages/productOverview/ProductOverview'
 import Checkout from './pages/checkout/Checkout'
+import CheckoutSuccess from './pages/checkoutSuccess/CheckoutSuccess'
 
 class App extends Component {
 
@@ -14,7 +15,8 @@ class App extends Component {
         {/* <LoginSignin/> */}
         {/* <ShoppingBag/> */}
         {/* <ProductOverview/> */}
-        <Checkout/>
+        {/* <Checkout/> */}
+        <CheckoutSuccess/>
       </div>
     );
   }
