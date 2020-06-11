@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
-//import Dashboard from './pages/dashboard/Dashboard'
-import LoginSignin from './pages/loginsignin/LoginSignin';
+import React, { Component } from 'react'
+import Dashboard from './pages/dashboard/Dashboard'
+import LoginSignin from './pages/loginsignin/LoginSignin'
+import ShoppingBag from './pages/shoppingBag/ShoppingBag'
+import ProductOverview from './pages/productOverview/ProductOverview'
 
 class App extends Component {
 
@@ -8,7 +10,9 @@ class App extends Component {
     return (
       <div>
         {/* <Dashboard/> */}
-        <LoginSignin/>
+        {/* <LoginSignin/> */}
+        {/* <ShoppingBag/> */}
+        <ProductOverview/>
       </div>
     );
   }
