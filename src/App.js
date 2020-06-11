@@ -3,6 +3,7 @@ import Dashboard from './pages/dashboard/Dashboard'
 import LoginSignin from './pages/loginsignin/LoginSignin'
 import ShoppingBag from './pages/shoppingBag/ShoppingBag'
 import ProductOverview from './pages/productOverview/ProductOverview'
+import Checkout from './pages/checkout/Checkout'
 
 class App extends Component {
 
@@ -12,7 +13,8 @@ class App extends Component {
         {/* <Dashboard/> */}
         {/* <LoginSignin/> */}
         {/* <ShoppingBag/> */}
-        <ProductOverview/>
+        {/* <ProductOverview/> */}
+        <Checkout/>
       </div>
     );
   }
