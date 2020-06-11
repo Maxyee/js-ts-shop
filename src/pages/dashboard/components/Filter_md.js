@@ -16,7 +16,7 @@ export default class Filter_md extends Component {
             Clear Filter
          </div>
         </div>
-        <div className={`${styles.content} ${this.state.isShow && styles.show_content}`}>
+        <div className={`${styles.content}`}>
           {/* order */}
           <div className={styles.order_box}>
             <div className={styles.head_title}>
