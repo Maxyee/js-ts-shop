@@ -1,4 +1,4 @@
-import { getAllProducts } from '../../redux/action'
+import { getAllProducts } from '../../redux/action/productAction'
 import { connect } from 'react-redux'
 import Dashboard from './Dashboard'
 

@@ -6,7 +6,18 @@ import Product from './components/Product'
 import LoadingAnimation from '../../components/loadingAnimation'
 
 export default class Dashboard extends Component {
+    constructor(props){
+        super(props)
+    }
+    componentDidMount() {
+        if (!this.props.products) {
+          this.props.getAllProducts()
+        }
+      }
+
+
     render() {
+        const { products } = this.props
         return (
             <div className={styles.outbox}>
                 <Header/>
@@ -17,10 +28,19 @@ export default class Dashboard extends Component {
                     </div>
 
                     <div className={`row ${styles.products}`}>
-
-                    <div className={`col-6 col-sm-4 col-md-4 col-lg-3 my-3 ${styles.product}`}>
-                        <Product/>
-                    </div>
+                    {products && products.map( p =>
+                        <div 
+                        key={p.title}
+                        className={`col-6 col-sm-4 col-md-4 col-lg-3 my-3 ${styles.product}`}>
+                            <Product
+                                title={p.title}
+                                price={`$${p.price} CAD`}
+                                color={p.color}
+                                image={p.imagePath}
+                            />
+                        </div>
+                    )}
+                    
 
                     </div>
                 </div>
