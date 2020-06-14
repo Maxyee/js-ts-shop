@@ -11,12 +11,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* <Dashboard/> */}
+        <Dashboard/>
         {/* <LoginSignin/> */}
         {/* <ShoppingBag/> */}
         {/* <ProductOverview/> */}
         {/* <Checkout/> */}
-        <CheckoutSuccess/>
+        {/* <CheckoutSuccess/> */}
       </div>
     );
   }
